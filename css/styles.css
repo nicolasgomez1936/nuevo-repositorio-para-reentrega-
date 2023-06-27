@@ -293,6 +293,16 @@
       }
     </style>
     
+ 
+    @media (max-width: 768px) {
+      /* Estilos aplicados cuando el ancho de la pantalla es 768px o menos */
+    }
+    
+    @media (max-width: 480px) {
+      /* Estilos aplicados cuando el ancho de la pantalla es 480px o menos */
+    }
+    
+
 ---------------bootstrap-------------------
 
 /*!
