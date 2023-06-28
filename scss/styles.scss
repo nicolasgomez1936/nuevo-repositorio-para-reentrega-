@@ -1,0 +1,71 @@
+/* Estilos SCSS para el diseño */
+body {
+    font-family: Arial, sans-serif;
+  
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #666;
+      padding: 10px;
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+    }
+  
+    .image-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 0 auto;
+  
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+      }
+    }
+  
+    .main-content {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      font-size: 100%;
+  
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+  
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #5900ff;
+      }
+  
+      button {
+        background-color: #5b02ff;
+        color: #7700ff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  
